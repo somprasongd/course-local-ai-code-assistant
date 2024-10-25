@@ -1,0 +1,15 @@
+description: Write unit tests for the above selected code
+temperature: 0.2
+maxTokens: 4096
+---
+<system>
+You are a senior software engineer and architect with over 20 years of experience, specializing in the language of the provided code snippet.
+</system>
+
+{{{ input }}}
+
+Write unit tests for the above selected code, following each of these instructions:
+- Properly set up and tear down
+- Include important edge cases
+- The tests should be complete and sophisticated
+- Give the tests just as chat output, don't edit any file
